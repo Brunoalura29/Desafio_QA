@@ -1,0 +1,20 @@
+- page: "Notificações"
+  features:
+    visualizar notificação: true
+    marcar como lida: true
+- page: "GestãoPessoas/PainelGestão/Solicitações"
+  features:
+    assumir solicitação: true
+    aceitar solicitação: true
+- page: "GestãoPessoas/PainelGestão/Ferias/MinhasFerias"
+  features:
+    solicitar ferias: true
+    cancelar ferias: true
+- page: "GestãoPessoas/PainelGestão/Ferias/FeriasEquipe/AguardandoAprovação"
+  features:
+    reprovar ferias: true
+    aceitar ferias: true
+- page: "GestãoPessoas/PainelGestão/Ferias/FeriasEquipe/Programadas"
+  features:
+    visualizar solicitação: true
+    ajustar programação: true

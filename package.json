@@ -1,0 +1,44 @@
+{
+  "name": "hcm-ui-testes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint .",
+    "eslint-fix": "eslint . --fix",
+    "coverage": "npx playwright test --grep @COVERAGE --workers=1 --project=calculation",
+    "feriasAbreTelas": "npx playwright test --grep @ABRETELASFERIASPARALELO --workers=4 --project=chromium --headed",
+    "feriasParalelo": "npx playwright test --grep @PARALELO_FERIAS_HCM --workers=4 --project=chromium --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.26.5",
+    "@babel/preset-env": "7.26.0",
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.6",
+    "eslint": "^9.18.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-jsdoc": "^50.6.1",
+    "eslint-plugin-perfectionist": "^4.6.0",
+    "eslint-plugin-playwright": "2.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-sonarjs": "^3.0.1"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.3.0",
+    "automacao-core-playwright": "^4.4.8",
+    "axios": "1.7.8",
+    "date-fns": "4.1.0",
+    "date-fns-tz": "3.2.0",
+    "dotenv": "^16.4.7",
+    "es6-promise": "^4.2.8",
+    "faker-br": "^0.4.1",
+    "feature-map": "^1.0.0",
+    "knex": "^3.1.0",
+    "moment": "^2.30.1",
+    "pg": "8.13.1",
+    "winston": "3.17.0"
+  }
+}

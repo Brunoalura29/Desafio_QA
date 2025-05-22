@@ -1,0 +1,13 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+indent_style = space # ==> Define o estilo de indentação como tabs
+indent_size = 2 # ==> Define o tamanho da indentação como tabs
+end_of_line = crlf # ==> Define o estilo de quebra de linha como CR+LF (Windows)
+charset = utf-8 # ==> Define o conjunto de caracteres como UTF-8
+trim_trailing_whitespace = true # ==> Remove espaços em branco no final das linhas
+insert_final_newline = true # ==> Insere uma nova linha no final do arquivo
+max_line_length = off # editorconfig-tools is unable to ignore longs strings or urls

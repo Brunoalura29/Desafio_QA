@@ -1,0 +1,1 @@
+ssh -N -L 0.0.0.0:5439:homologx-db.coxvrvdzq29k.us-east-1.rds.amazonaws.com:5432 -i homx-db-access.pem homx-db-access@52.205.94.190

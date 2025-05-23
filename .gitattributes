@@ -1,0 +1,8 @@
+# .gitattributes
+* text=auto
+
+# .gitattributes
+* text eol=lf
+
+
+preencheDialog.exe binary

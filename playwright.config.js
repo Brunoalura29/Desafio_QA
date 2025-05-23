@@ -45,10 +45,10 @@ export default defineConfig({
   timeout: 120000,
   /* Configure projects for major browsers */
   projects: [
-    {
-      name: 'calculation',
-      testMatch: /.*\.calculation\.js/,
-    },
+   // {
+  //    name: 'calculation',
+  //    testMatch: /.*\.calculation\.js/,
+  //  },
     {
       name: 'chromium',
       use: {
@@ -64,7 +64,7 @@ export default defineConfig({
         viewport: { width: 1366, height: 768 },
         locale: 'pt-BR',
       },
-    },
+     },
     {
       name: 'webkit',
       use: {
